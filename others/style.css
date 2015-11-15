@@ -1,0 +1,79 @@
+body{
+margin:0px;
+background:#fff;
+font-family: Verdana;
+}
+#header{
+height: 50px;
+width: 100%;
+background: #4c66a4;
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+color: #fff;
+z-index:300;
+}
+#search{
+position:relative;
+top: 10px;
+left: 300px;
+}
+.searchbox{
+width: 300px;
+height: 30px;
+border-radius: 4px;
+padding: 10px;
+outline: none;
+font-size: 15px;
+font-family: verdana;
+}
+#profile_details,#images,.box{
+position: relative;
+top: 150px;
+padding-left: 50px;
+}
+
+#content{
+background:#ccc;
+}
+#sidebar{
+height: 1600px;
+width: 250px;
+float: left;
+background: #fff;
+}
+#main{
+background: #fff;
+border-left:1px solid #d8dfea;
+width: 1080px;
+height: 1600px;
+float: right;
+left: 200px;
+}
+#profileimage{
+position:relative;
+top:80px;
+left:100px;
+}
+.imageclass{
+border:1px solid #ccc;
+padding :2px;
+width:100px;
+height:120px;
+}
+#actions{top: 120px;
+position: relative;
+left: 55px;}
+ul{list-style-type:none}
+li{height:25px;}
+li a{
+text-decoration: none;
+color: #504949;
+padding: 3px;
+font-weight: bold;
+font-size: 15px;}
+li a:hover{
+background: #E2EBF8;
+text-decoration: underline;
+}
